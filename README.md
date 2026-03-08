@@ -1,6 +1,6 @@
 # Machine Learning Projects
 
-This repository contains multiple machine learning and data science projects implemented using Python.
+This repository contains multiple machine learning and data science projects implemented using Python and R.
 
 ---
 
@@ -63,7 +63,7 @@ This project analyzes student productivity patterns using the **DBSCAN clusterin
 ### Result
 The DBSCAN algorithm identified clusters representing different productivity behaviors among students.
 
-# Boston Housing Price Prediction
+## 4️⃣ Boston Housing Price Prediction
 
 This project analyzes the Boston Housing dataset and builds a regression model to predict the median value of homes (MEDV).
 
@@ -87,5 +87,6 @@ This project analyzes the Boston Housing dataset and builds a regression model t
 ## Result
 The final regression model explained approximately **74% of the variance in housing prices (R² ≈ 0.74)**.
 
+## Model Visualization
 
-
+![Model Plot](model_plot.png)
