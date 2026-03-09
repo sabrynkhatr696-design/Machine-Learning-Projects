@@ -1,13 +1,10 @@
 # Machine Learning Projects
-
-This repository contains multiple machine learning and data science projects implemented using Python and R.
+This repository contains multiple Machine Learning and Data Science projects implemented using **Python** and **R**.
 
 ---
 
 ## 1️⃣ Image Classification using CNN
-
-This project implements an image classification model using Convolutional Neural Networks (CNN) with TensorFlow and Keras.
-
+This project implements an image classification model using **Convolutional Neural Networks (CNN)** with TensorFlow and Keras.
 ### Technologies
 - Python
 - TensorFlow
@@ -15,9 +12,8 @@ This project implements an image classification model using Convolutional Neural
 - NumPy
 - Matplotlib
 - Google Colab
-
 ### File
-CNN_Image_Classification.ipynb  
+`CNN_Image_Classification.ipynb`
 Contains the CNN model implementation and training process.
 
 ---
@@ -25,26 +21,21 @@ Contains the CNN model implementation and training process.
 ## 2️⃣ Student Performance Prediction (Regression)
 
 This project predicts student performance using multiple regression models.
-
 ### Models Tested
 - Linear Regression
 - Random Forest
 - Gradient Boosting
-
 ### Result
 After evaluating the models using **R², MAE, and RMSE**, the results showed that:
-
 **Linear Regression was the best-performing model on this dataset.**
-
 ### File
-Student_Performance_Prediction.ipynb
+`Student_Performance_Prediction.ipynb`
 
 ---
 
 ## 3️⃣ Student Productivity Analysis using DBSCAN
 
 This project analyzes student productivity patterns using the **DBSCAN clustering algorithm**.
-
 ### Technologies
 - Python
 - Pandas
@@ -52,22 +43,21 @@ This project analyzes student productivity patterns using the **DBSCAN clusterin
 - Scikit-learn
 - Matplotlib
 - Google Colab
-
 ### Methodology
-1. Data preprocessing
-2. Feature scaling
-3. DBSCAN clustering
-4. Cluster analysis
-5. Data visualization
-
+1. Data preprocessing  
+2. Feature scaling  
+3. DBSCAN clustering  
+4. Cluster analysis  
+5. Data visualization  
 ### Result
 The DBSCAN algorithm identified clusters representing different productivity behaviors among students.
 
+---
+
 ## 4️⃣ Boston Housing Price Prediction
 
-This project analyzes the Boston Housing dataset and builds a regression model to predict the median value of homes (MEDV).
-
-## Techniques Used
+This project analyzes the **Boston Housing dataset** and builds a regression model to predict the median value of homes (MEDV).
+### Techniques Used
 - Data exploration
 - Outlier detection (IQR)
 - Correlation analysis
@@ -76,17 +66,43 @@ This project analyzes the Boston Housing dataset and builds a regression model t
 - Multicollinearity check (VIF)
 - Heteroscedasticity test (Breusch-Pagan)
 - Robust standard errors
-
-## Tools
+### Tools
 - R
 - car
 - MASS
 - lmtest
 - sandwich
-
-## Result
+### Result
 The final regression model explained approximately **74% of the variance in housing prices (R² ≈ 0.74)**.
-
-## Model Visualization
+### Model Visualization
 
 ![Model Plot](model_plot.png)
+
+---
+
+## 5️⃣ World Population Clustering using KMeans
+
+This project applies **KMeans clustering** to group countries based on:
+- Area
+- Population
+- Population Density
+### Goal
+Identify patterns and similarities between countries based on geographic and demographic characteristics.
+### Techniques Used
+- Data Cleaning
+- Label Encoding
+- One-Hot Encoding
+- Data Visualization (Seaborn, Matplotlib)
+- Elbow Method
+- KMeans Clustering
+- Hyperparameter Tuning using GridSearchCV
+### Technologies
+- Python
+- Pandas
+- Scikit-learn
+- Seaborn
+- Matplotlib
+- Google Colab
+### Result
+Countries were grouped into clusters based on similarities in area, population size, and population density.  
+The clustering results reveal meaningful patterns among countries and help understand global population distribution.
