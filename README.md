@@ -105,8 +105,9 @@ This project analyzes student productivity patterns using DBSCAN clustering.
 - DBSCAN clustering  
 - Visualization  
 
-### 📊 Result
+### 📊 DBSCAN Clustering Results
 Identified distinct student behavior clusters.
+![DBSCAN Clustering](dbscan_with_without_outliers.png)
 
 ---
 
