@@ -106,3 +106,40 @@ Identify patterns and similarities between countries based on geographic and dem
 ### Result
 Countries were grouped into clusters based on similarities in area, population size, and population density.  
 The clustering results reveal meaningful patterns among countries and help understand global population distribution.
+
+## 6️⃣ Time Series Forecasting using LSTM Neural Network
+
+This project applies a deep learning model using Long Short-Term Memory (LSTM) to predict values in a time series dataset.
+A synthetic sine wave dataset was generated and transformed using a sliding window approach to create sequences for supervised learning.
+
+### Technologies
+* Python
+* TensorFlow / Keras
+* NumPy
+* Matplotlib
+* Google Colab
+### Methodology
+* Data generation using sine function
+* Data preprocessing (sliding window technique)
+* Reshaping data for LSTM input
+* Building LSTM neural network
+* Training and validation
+* Model evaluation
+### Model Architecture
+* LSTM layer
+* Dropout layer
+* Dense layers
+
+### Results
+* Mean Absolute Error (MAE): ~0.012
+* Loss (MSE): ~0.00020
+* The model achieved high accuracy in predicting the time series pattern.
+* Predictions closely matched the true values with minimal error.
+* No significant overfitting observed
+
+### File
+LSTM_Time_Series_Forecasting.ipynb
+Contains the full implementation of the LSTM model, training process, and prediction visualization.
+![LSTM Result 1](1-lstm_plot.png)
+
+![LSTM Result 2](2-lstm_plot.png)
