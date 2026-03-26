@@ -72,9 +72,10 @@ This project applies **KMeans clustering** to group countries based on demograph
 - KMeans clustering
 - Visualization
 
-### 📊 Result
+### 📊 Clustering Results
 Countries were grouped into meaningful clusters based on population characteristics.
 
+![KMeans Clustering](kmeans_clustering_results.png)
 ---
 
 ## 4️⃣ Student Performance Prediction (Regression)
