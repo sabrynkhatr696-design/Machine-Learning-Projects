@@ -55,6 +55,9 @@ This project implements an image classification model using **Convolutional Neur
 
 ### 📁 File
 `CNN_Image_Classification.ipynb`
+### 📊 CNN Results
+
+![CNN Training Results](cnn_training_results.png)
 
 ---
 
