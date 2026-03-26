@@ -142,4 +142,4 @@ LSTM_Time_Series_Forecasting.ipynb
 Contains the full implementation of the LSTM model, training process, and prediction visualization.
 ![LSTM Result 1](1-lstm_plot.png)
 
-![LSTM Result 2](2-lstm_plot.png)
+![LSTM Prediction Results](lstm_prediction_results.png)
