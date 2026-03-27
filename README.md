@@ -92,6 +92,7 @@ Linear Regression performed best based on R², MAE, and RMSE.
 
 ### 📁 File
 `Student_Performance_Prediction.ipynb`
+
 ![Model Results](images/model_performance_comparison.png)
 
 ---
