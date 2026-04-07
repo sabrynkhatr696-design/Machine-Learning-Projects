@@ -1,17 +1,21 @@
-# Machine Learning Projects
-## 🚀 Machine Learning Portfolio
+# 🧠 Data Scientist | Machine Learning Engineer – Sabrin Kater
 
-This repository contains multiple Machine Learning and Data Science projects implemented using **Python** and **R**.
+🚀 Passionate about building real-world Machine Learning solutions and deploying them as interactive applications.
+
+💡 Skilled in:
+- Machine Learning & Deep Learning  
+- Time Series Forecasting (LSTM)  
+- Computer Vision (CNN)  
+- Data Analysis & Clustering  
+- Streamlit ML Apps  
 
 ---
 
-## 📌 Projects Overview
+## 🔥 Featured Project
 
----
+### 📈 Time Series Forecasting using LSTM Neural Network (🔥 Main Project)
 
-## 1️⃣ Time Series Forecasting using LSTM Neural Network (🔥 Main Project)
-
-This project uses **LSTM (Long Short-Term Memory)** to predict time series values generated from a sine wave dataset.
+This project uses **LSTM (Long Short-Term Memory)** to predict time series values.
 
 ### 🛠️ Methodology
 - Data generation (sine wave)
@@ -22,77 +26,70 @@ This project uses **LSTM (Long Short-Term Memory)** to predict time series value
 - Prediction visualization
 
 ### 🧠 Model Architecture
-- LSTM layer
-- Dropout layer
-- Dense layers
+- LSTM layer  
+- Dropout layer  
+- Dense layers  
 
 ### 📊 Results
 - MAE: ~0.012  
 - MSE: ~0.00020  
-- High accuracy in capturing time series patterns  
-- Predictions closely match true values  
+- High accuracy in capturing patterns  
 
-### 📁 Files
+### 📁 File
 `LSTM_Time_Series_Forecasting.ipynb`
 
 ### 📈 Visual Results
-![LSTM Training Plot](1-lstm_plot.png)
-
+![LSTM Training Plot](1-lstm_plot.png)  
 ![LSTM Prediction Results](lstm_prediction_results.png)
+
+---
+
+## 🚀 Projects Overview
 
 ---
 
 ## 2️⃣ Image Classification using CNN
 
-This project implements an image classification model using **Convolutional Neural Networks (CNN)** with TensorFlow and Keras.
+Built a deep learning model to classify geometric shapes from images.
 
 ### 🛠️ Technologies
-- Python
-- TensorFlow
-- Keras
-- NumPy
-- Matplotlib
-- Google Colab
+- TensorFlow / Keras  
+- NumPy  
+- Matplotlib  
 
 ### 📁 File
 `CNN_Image_Classification.ipynb`
-### 📊 CNN Results
 
+### 📊 Results
 ![CNN Training Results](cnn_training_results.png)
 
 ---
 
 ## 3️⃣ World Population Clustering using KMeans
 
-This project applies **KMeans clustering** to group countries based on demographic features.
+Applied clustering to group countries based on demographic features.
 
-### 🛠️ Techniques Used
-- Data cleaning
-- Encoding
-- Elbow method
-- KMeans clustering
-- Visualization
+### 🛠️ Techniques
+- Data preprocessing  
+- Elbow method  
+- KMeans clustering  
 
-### 📊 Clustering Results
-Countries were grouped into meaningful clusters based on population characteristics.
-
+### 📊 Results
 ![KMeans Clustering](kmeans_clustering_results.png)
+
 ---
 
 ## 4️⃣ Student Performance Prediction (Regression)
 
-This project predicts student performance using multiple regression models.
+Predicted student performance using supervised ML models.
 
-### 🛠️ Models Tested
-- Linear Regression
-- Random Forest
-- Gradient Boosting
+### 🛠️ Models
+- Linear Regression  
+- Random Forest  
+- Gradient Boosting  
 
-### 📊 Result
-Linear Regression performed best based on R², MAE, and RMSE.
-
-### 📁 File
-`Student_Performance_Prediction.ipynb`
+### 📊 Results
+Linear Regression performed best.
 
 ![Model Results](model_performance_comparison.png)
 
@@ -100,40 +97,48 @@ Linear Regression performed best based on R², MAE, and RMSE.
 
 ## 5️⃣ Student Productivity Analysis using DBSCAN
 
-This project analyzes student productivity patterns using DBSCAN clustering.
+Analyzed student behavior patterns using clustering.
 
-### 🛠️ Methodology
-- Data preprocessing  
+### 🛠️ Techniques
+- DBSCAN  
 - Feature scaling  
-- DBSCAN clustering  
-- Visualization  
+- Data visualization  
 
-### 📊 DBSCAN Clustering Results
-Identified distinct student behavior clusters.
+### 📊 Results
 ![DBSCAN Clustering](dbscan_with_without_outliers.png)
 
 ---
 
 ## 6️⃣ Boston Housing Price Prediction
 
-This project predicts housing prices using regression techniques on the Boston Housing dataset.
+Predicted housing prices using regression techniques.
 
-### 🛠️ Techniques Used
-- Data exploration  
-- Outlier detection  
-- Correlation analysis  
+### 🛠️ Techniques
 - Linear regression  
-- Feature selection (stepAIC)  
-- VIF check  
-- Robust regression  
+- Feature selection  
+- Correlation analysis  
 
-### 📊 Result
-The model achieved **R² ≈ 0.74**
+### 📊 Results
+- R² ≈ 0.74  
 
 ### 📁 File
 `Boston_Housing_Prediction.R`
 
 ---
 
-## 🔥 Author
-**Sabrin Kater**
+## 💼 Open to Work
+
+✨ I am currently open for:
+- Freelance projects  
+- Entry-level Data Science roles  
+
+---
+
+## 📬 Contact
+
+- 💻 GitHub: https://github.com/sabrynkhatr696-design  
+- 🔗 LinkedIn: (  https://www.linkedin.com/in/sabrin-kater-4a5050385/ )
+
+---
+
+⭐ Always learning, building, and improving!
